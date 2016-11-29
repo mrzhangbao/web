@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TextID</servlet-name>
+  	<display-name>TextID</display-name>
+  	<description></description>
+  	<servlet-class>test.TextID</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TextID</servlet-name>
+  	<url-pattern>/TextID</url-pattern>
+  </servlet-mapping>
 </web-app>
